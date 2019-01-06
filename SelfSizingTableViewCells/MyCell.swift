@@ -64,8 +64,7 @@ class MyCell: UITableViewCell {
         layout()
     }
     
-    /** Layout the UI. Pretty standard things here; you can ignore this code block if familiar with
-        autolayout by code.
+    /** Layout the UI. It's import we have a chain of layouts from top and leading side to bottom and trailing size. Notice the name and body doesn't have height constraint.
     */
     func layout(){
 
